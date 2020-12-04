@@ -1,0 +1,184 @@
+<!-- carousel -->
+<ngb-carousel #carousel [interval]="2500">
+    <ng-template ngbSlide *ngFor="let img of images; index as i">
+      <div class="carousel-caption">
+        <h1 style="font-size: 100px; color: white">
+          Waterfront {{ i + 1 }} title
+        </h1>
+      </div>
+      <a
+        href="https://www.google.fr/?q=Number+{{ i + 1 }}"
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+      >
+        <div class="picsum-img-wrapper">
+          <img
+            style="width: 100%; height: 500px"
+            [src]="img"
+            alt="My image {{ i + 1 }} description"
+          />
+        </div>
+      </a>
+    </ng-template>
+  </ngb-carousel>
+  
+  <div class="container-fluid pt-3">
+    <!-- first row -->
+    <div class="row">
+      <div class="col-md-6 portfolio-item">
+        <div class="card h-100">
+          <a routerLink="relax"
+            ><img
+              class="card-img-top"
+              src="https://www.aspiretrainingteam.co.uk/wp-content/uploads/2017/12/Relaxation-960x600.jpg"
+              alt=""
+            />
+  
+            <div class="card-img-overlay">
+              <h4 class="card-title">Relax</h4>
+              <p class="card-text">Have some fun buddy! you need to relax.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+  
+      <div class="col-md-6 portfolio-item">
+        <div class="card h-100 border-0">
+          <a routerLink="play"
+            ><img
+              class="card-img-top"
+              src="https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/2cqfnzc89fjonogh_1576217781.jpeg?tr=w-812,h-464"
+              alt=""
+            />
+  
+            <div class="card-img-overlay">
+              <h4 class="card-title">Play</h4>
+              <p class="card-text">Have some fun buddy! you need to relax.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Second row -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 portfolio-item">
+            <div class="card h-100">
+              <a routerLink="live"
+                ><img
+                  class="card-img-top"
+                  src="https://www.indianfolk.com/wp-content/uploads/2019/06/B3-DM067_RIGHTS_IM_20190319162958.jpg"
+                  alt=""
+                />
+  
+                <div class="card-img-overlay">
+                  <h4 class="card-title">Live</h4>
+                  <p class="card-text">Have some fun buddy! you need to relax.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 portfolio-item">
+            <div class="card h-100">
+              <a routerLink="work"
+                ><img
+                  class="card-img-top"
+                  src="https://www.indianfolk.com/wp-content/uploads/2019/06/B3-DM067_RIGHTS_IM_20190319162958.jpg"
+                  alt=""
+                />
+  
+                <div class="card-img-overlay">
+                  <h4 class="card-title">Work</h4>
+                  <p class="card-text">Have some fun buddy! you need to relax.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 portfolio-item">
+            <div class="card h-100">
+              <a routerLink="invest"
+                ><img
+                  class="card-img-top"
+                  src="https://www.indianfolk.com/wp-content/uploads/2019/06/B3-DM067_RIGHTS_IM_20190319162958.jpg"
+                  alt=""
+                />
+  
+                <div class="card-img-overlay">
+                  <h4 class="card-title">Invest</h4>
+                  <p class="card-text">Have some fun buddy! you need to relax.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- third row -->
+
+    <h2 style="text-align:center; color:#064273;">News</h2>
+    <div class="row">
+      <div class="col">
+        <div class="card h-100 text-center border-0">
+          <img class="card-img-top" src="http://placehold.it/500x400" alt="" />
+          <div class="card-body">
+            <h4 class="card-news-title">News </h4>
+            <p class="card-news-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+              aut mollitia eum ipsum fugiat odio officiis odit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3">
+        <div class="card h-100 text-center border-0">
+          <img class="card-img-top" src="http://placehold.it/500x400" alt="" />
+          <div class="card-body">
+            <h4 class="card-news-title">News </h4>
+            <p class="card-news-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+              aut mollitia eum ipsum fugiat odio officiis odit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3">
+        <div class="card h-100 text-center border-0">
+          <img class="card-img-top" src="http://placehold.it/500x400" alt="" />
+          <div class="card-body">
+            <h4 class="card-news-title">News </h4>
+            <p class="card-news-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+              aut mollitia eum ipsum fugiat odio officiis odit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3">
+        <div class="card h-100 text-center border-0">
+          <img class="card-img-top" src="http://placehold.it/500x400" alt="" />
+          <div class="card-body">
+            <h4 class="card-news-title">News </h4>
+            <p class="card-news-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+              aut mollitia eum ipsum fugiat odio officiis odit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3">
+        <div class="card h-100 text-center border-0">
+          <img class="card-img-top" src="http://placehold.it/500x400" alt="" />
+          <div class="card-body">
+            <h4 class="card-news-title">News </h4>
+            <p class="card-news-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+              aut mollitia eum ipsum fugiat odio officiis odit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-lg-2 col-sm-4 mb-4">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </div> -->
+    </div>
+  </div>
+  

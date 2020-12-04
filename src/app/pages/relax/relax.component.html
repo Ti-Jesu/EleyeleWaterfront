@@ -1,0 +1,138 @@
+<!-- carousel -->
+<ngb-carousel>
+  <ng-template ngbSlide *ngFor="let img of images; index as i">
+    <div class="carousel-caption">
+      <h1 style="font-size: 100px; color: white">Relax</h1>
+    </div>
+    <div class="picsum-img-wrapper">
+      <img
+        style="width: 100%; height: 320px"
+        [src]="img"
+        alt="My image {{ i + 1 }} description"
+      />
+    </div>
+  </ng-template>
+</ngb-carousel>
+<hr >
+<div class="container-fluid pt-3 ">
+  <!-- Intro -->
+  
+  <div class="row pb-6; pt-5"  >
+    <div class="col-lg-4">
+      <h2 class="card-title; ml-5 " style="color:black; font-size: 55px; ">A place to relax...</h2>
+    </div>
+    <div class="col-lg-2"></div>
+
+    <div class="col-lg-6">
+      <p class="card-text" style="color: black;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta
+        expedita corporis animi vero voluptate voluptatibus possimus, veniam
+        magni quis!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta
+      </p>
+    </div>
+  
+</div>
+
+<hr style=" height:1px; color:#76b6c4;background-color: #76b6c4">
+  <!-- first row -->
+  <div class="row pt-4">
+    <div class="col-md-6 portfolio-item">
+      <div class="card border-0">
+        <a routerLink="relax"
+          ><img
+            class="card-img-top"
+            src="https://media1.s-nbcnews.com/j/streams/2014/October/141006/2D274906938828-today-cafeteria-140811-01.fit-760w.jpg"
+            alt=""
+          />
+
+          <div class="card-img-overlay">
+            <h4 class="card-title">Eat & Drink</h4>
+          </div>
+        </a>
+        <div class="card-body">
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+            euismod odio, gravida pellentesque urna varius vitae.
+          </p>
+          <hr>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 portfolio-item">
+      <div class="card border-0">
+        <a routerLink="play"
+          ><img
+            class="card-img-top"
+            src="https://www.hopkinsmedicine.org/-/media/images/health/2_-treatment/surgical-care/recovery-from-surgery-teaser.ashx?h=320&la=en&w=560&hash=2975771AB295F49B7080B17AFF7714E20E13F254"
+            alt=""
+          />
+
+          <div class="card-img-overlay">
+            <h4 class="card-title">Well-Being</h4>
+          </div>
+        </a>
+        <div class="card-body">
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+            euismod odio, gravida pellentesque urna varius vitae.
+          </p>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- second row -->
+  <div class="row pt-4">
+    <div class="col-md-6 portfolio-item">
+      <div class="card border-0">
+        <a routerLink="relax"
+          ><img
+            class="card-img-top"
+            src="https://english.cdn.zeenews.com/sites/default/files/2014/12/03/298730-ch.jpg"
+            alt=""
+          />
+
+          <div class="card-img-overlay">
+            <h4 class="card-title">Hospitality</h4>
+          </div>
+        </a>
+        <div class="card-body">
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+            euismod odio, gravida pellentesque urna varius vitae.
+          </p>
+          <hr>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 portfolio-item">
+      <div class="card border-0">
+        <a routerLink="play"
+          ><img
+            class="card-img-top"
+            src="https://sgl-assets.imgix.net/files/paragraph_photo/Aquarium-Bay-san-francisco-through-waterfront-via-magazine_0.jpg?w=934&h=620&fit=max"
+            alt=""
+          />
+<!--  -->
+          <div class="card-img-overlay">
+            <h4 class="card-title">Nature</h4>
+          </div>
+        </a>
+        <div class="card-body">
+          
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+            euismod odio, gravida pellentesque urna varius vitae.
+          </p>
+          <hr>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,93 @@
+<!-- carousel -->
+<ngb-carousel>
+    <ng-template ngbSlide *ngFor="let img of images; index as i">
+      <div class="carousel-caption">
+        <h1 style="font-size: 100px; color: white">Work</h1>
+      </div>
+      <div class="picsum-img-wrapper">
+        <img
+          style="width: 100%; height: 320px"
+          [src]="img"
+          alt="My image {{ i + 1 }} description"
+        />
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  <hr>
+  <div class="container-fluid pt-3 ">
+    <!-- Intro -->
+    
+    <div class="row pb-6; pt-5"  >
+      <div class="col-lg-4">
+        <h2 class="card-title; ml-5 " style="color:black; font-size: 55px; ">Grow your business ...</h2>
+      </div>
+      <div class="col-lg-2"></div>
+  
+      <div class="col-lg-6">
+        <p class="card-text" style="color: black;">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+          aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta
+          expedita corporis animi vero voluptate voluptatibus possimus, veniam
+          magni quis!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+          aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta
+        </p>
+      </div>
+    
+  </div>
+  
+  <hr>
+    <!-- first row -->
+    <div class="row pt-4">
+      <div class="col-md-6 portfolio-item">
+        <div class="card border-0">
+          <a 
+            ><img
+              class="card-img-top"
+              src="https://www.ceosuite.com/wp-content/uploads/2019/09/office-space-manila.jpg"
+              alt=""
+            />
+  
+            <div class="card-img-overlay">
+              <h4 class="card-title">Office Space</h4>
+            </div>
+          </a>
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+              euismod odio, gravida pellentesque urna varius vitae.
+            </p>
+            <hr>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-6 portfolio-item">
+        <div class="card border-0">
+          <a
+            ><img
+              class="card-img-top"
+              src="https://images.dubizzle.com/v1/files/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmbiI6ImFrNTdoN3h2ZjczczEtRFVCSVpaTEUiLCJ3IjpbeyJmbiI6IjVqZXVpN3FmemllNjEtRFVCSVpaTEUiLCJzIjozMCwicCI6ImNlbnRlciwxIiwiYSI6ODB9XX0.j2cTmwStidUKpSJQYXS875SCfxzYClJr3rmF4IYQ3HE/image;p=main"
+              alt=""
+            />
+  
+            <div class="card-img-overlay">
+              <h4 class="card-title">Commercial retail</h4>
+            </div>
+          </a>
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+             
+              
+            </p>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second row -->
+  </div>
+  
+
+

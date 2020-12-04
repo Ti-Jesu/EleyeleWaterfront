@@ -1,0 +1,19 @@
+.ngb-carousel  {
+    height: 90vh;
+    min-height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+  
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+.hr{
+    color:#064273;
+    background-color:#064273 ;
+    height: 7px;
+}
+
