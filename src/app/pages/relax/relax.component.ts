@@ -19,5 +19,5 @@ config.showNavigationArrows=false;
 
   ngOnInit(): void {
   }
-  images = [1059,129].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  images = [0].map((n) => `assets/relax/${n}.jpg`);
 }

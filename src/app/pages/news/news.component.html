@@ -1,0 +1,19 @@
+<ngb-carousel>
+    <ng-template ngbSlide *ngFor="let img of images; index as i">
+      <div class="carousel-caption">
+        <h1 style="font-size: 100px; color: white">Relax</h1>
+      </div>
+      <div class="picsum-img-wrapper">
+        <img
+          style="width: 100%; height: 320px"
+          [src]="img"
+          alt="My image {{ i + 1 }} description"
+        />
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  <hr />
+  <div class="container-fluid">
+
+      
+  </div>

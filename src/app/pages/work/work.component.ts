@@ -16,5 +16,5 @@ export class WorkComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  images = [1076,1067].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  images = [0].map((n) => `assets/work/${n}.jpg`);
 }

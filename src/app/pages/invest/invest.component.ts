@@ -1,3 +1,4 @@
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InvestComponent implements OnInit {
 
-  constructor() { }
+  constructor(config:NgbCarouselConfig) { 
+
+    config.showNavigationArrows=false;
+    config.showNavigationIndicators=false;
+    config.interval=0;
+    config.wrap=false;
+  }
 
   ngOnInit(): void {
   }
-
+  images = [0].map((n) => `assets/invest/${n}.jpg`);
 }

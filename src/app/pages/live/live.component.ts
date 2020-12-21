@@ -13,9 +13,10 @@ export class LiveComponent implements OnInit {
     config.showNavigationArrows=false;
     config.interval=0;
     config.wrap=false;
+    config.showNavigationIndicators=false;
    }
 
   ngOnInit(): void {
   }
-  images = [106,1068].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  images = [0].map((n) => `assets/live/${n}.jpg`);
 }

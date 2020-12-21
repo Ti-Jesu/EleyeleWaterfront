@@ -13,7 +13,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  images = [944, 1011,466,738].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  images = [0,1,2,3].map((n) => `assets/carousel/${n}.jpg`);
+  text=["Eleyele Waterfront","Join a growing commuinity","a place to invest","eleyele"]
 
   
 }

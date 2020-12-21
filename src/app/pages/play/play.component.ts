@@ -10,6 +10,7 @@ export class PlayComponent implements OnInit {
 
   constructor(config:NgbCarouselConfig) {
     config.showNavigationArrows=false;
+    config.showNavigationIndicators=false;
     config.interval=0;
     config.wrap=false;
 
@@ -18,5 +19,5 @@ export class PlayComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  images = [1058,108].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  images = [0].map((n) => `assets/play/${n}.jpg`);
 }

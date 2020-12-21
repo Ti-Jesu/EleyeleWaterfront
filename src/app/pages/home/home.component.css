@@ -1,22 +1,26 @@
 .ngb-carousel  {
-    height: 90vh;
     min-height: 200px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
   }
+  
   
   .portfolio-item {
     margin-bottom: 10px;
-      
+    bottom: initial;   
   }
 
 h1{
 color:#3492eb;
 margin-left: auto;
 margin-right: auto;
+line-height: 140%;
+letter-spacing: .04em;
+-webkit-font-smoothing: antialiased;
 }
 
   body{
@@ -57,4 +61,33 @@ margin-right: auto;
 
 .card-text{
     color: white;
+}
+
+.align-self-end {
+
+  align-self:flex-end!important;
+}
+.h-100 {
+  height: 100%!important;
+}
+.card-ft-txt{
+ 
+    font-weight: 400;
+    font-size: 24px;
+    line-height: normal;
+    padding: 0 0 0 0;
+    letter-spacing: .04em;
+    background: none;
+    border: none;
+    display: inline-block;
+    color: white;
+}
+
+
+.card-footer {
+  width: 100%;
+  padding: 0;
+  background: none;
+  border: none;
+  z-index: 1;
 }

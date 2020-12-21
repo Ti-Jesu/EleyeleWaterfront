@@ -11,10 +11,11 @@ import { PlayComponent } from './play/play.component';
 import { LiveComponent } from './live/live.component';
 import { WorkComponent } from './work/work.component';
 import { InvestComponent } from './invest/invest.component';
+import { NewsComponent } from './news/news.component';
 
 
 @NgModule({
-  declarations: [PagesComponent, RelaxComponent, ContactComponent, HomeComponent, PlayComponent, LiveComponent, WorkComponent, InvestComponent],
+  declarations: [PagesComponent, RelaxComponent, ContactComponent, HomeComponent, PlayComponent, LiveComponent, WorkComponent, InvestComponent, NewsComponent],
   imports: [
     CommonModule,
     PagesRoutingModule,NgbModule
